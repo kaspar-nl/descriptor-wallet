@@ -18,7 +18,7 @@ $ cd ~
 $ git clone https://github.com/LNP-BP/descriptor-wallet
 $ cd descriptor-wallet
 $ cargo install --path . --locked --all-features
-$ mkdir ~/wallet | mkdir ~/wallet/seeds | mkdir ~/wallet/track | mkdir ~/wallet/psbt
+$ mkdir ~/wallet | mkdir ~/wallet/seeds | mkdir ~/wallet/track | mkdir ~/wallet/psbt | mkdir ~/wallet/signs
 ```
 
 #### Create a seed and write to file (that can be used for `testnet` and `mainnet`):
